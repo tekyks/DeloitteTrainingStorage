@@ -135,10 +135,10 @@ let addition4 = (input1, input2) => {
     return c + input2; 
 };
 
-let result = addition3(3,5);
-//console.log(result);
-//console.log(typeof addition3);
-
+// let result = addition3(3,5);
+// console.log(result);
+// console.log(typeof addition3);
+// console.log(addition3 instanceof Object);
 
 //const a = 5;
 //a = 6;
@@ -152,3 +152,44 @@ let result = addition3(3,5);
 //     console.log("Vale is not 5");
 // }
 
+// let time = 8;
+// if(time < 12){
+//     console.log("Good Morning");
+// }else if(time >= 12 && time < 16 ){ // && -> and, || -> OR
+//     console.log("Good Afternoon");
+// }else{
+//     console.log("Good Evenning");
+// }
+
+//switch statement --> learn by yourself
+
+//loop concept
+
+//for loop
+// for(let i=0; i<5; i++){
+//     console.log("SAP BTP Learning ");
+// }
+
+// for(let i=1; i<=10; i++){
+//     console.log(16 * i);
+// }
+
+//loop - while, do while --> explore by yourself
+
+//break & continue
+
+//break
+// for(let i=1; i<=5; i++){
+//     if(i === 3){
+//         break; //it breaks and come out of the loop
+//     }
+//     console.log("SAP BTP Learning " + i);
+// }
+
+//continue
+for(let i=1; i<=5; i++){
+    if(i === 3){
+        continue;//skip this part of execution & continue the loop
+    }
+    console.log("SAP BTP Learning " + i);
+}
