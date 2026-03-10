@@ -1,4 +1,4 @@
-# Training Project Repository 
+# Deloitte Training Project Repository 
 
 This Repository is having all the projects as per the sessions.
 
