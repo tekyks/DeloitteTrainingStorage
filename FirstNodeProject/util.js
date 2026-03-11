@@ -5,4 +5,12 @@ const user = {
     id: "techyks"
 }
 
-module.exports = user; 
+const user2 = {
+    name: "Krishna2",
+    id: "techyks2"
+}
+
+
+
+module.exports = { user, user2 }; 
+ 
