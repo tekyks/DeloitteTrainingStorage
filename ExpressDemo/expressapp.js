@@ -8,7 +8,7 @@ const app = express();
 app.use('/api/v1', routes);
 
 
-
+//server listen
 app.listen(port, function(){
     console.log("Express Server is listening on Port : " + port);
 });
