@@ -1,0 +1,35 @@
+# GET Call
+
+# GET http://localhost:4004/odata/v4/bookshop/Books
+
+
+# Create Call
+
+# POST http://localhost:4004/odata/v4/bookshop/Books
+# Content-Type: application/json
+
+# {
+#     "ID": 5,
+#     "title": "Deep Work"
+# }
+
+
+# Update call
+
+PUT http://localhost:4004/odata/v4/bookshop/Books(2)
+Content-Type: application/json
+
+{
+    "title": "Make Time"
+}
+
+# PATCH http://localhost:4004/odata/v4/bookshop/Books(3)
+# Content-Type: application/json
+
+# {
+#     "title": "The One"
+# }
+
+# Delete
+
+# DELETE http://localhost:4004/odata/v4/bookshop/Books(3)
