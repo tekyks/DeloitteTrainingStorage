@@ -1,6 +1,9 @@
+using { cuid, managed } from '@sap/cds/common';
+
 service bookshop{
-    entity Books {
-        key ID: Integer;
+    entity Books: cuid, managed {
         title: String;
     }
 }
+
+

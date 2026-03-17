@@ -15,10 +15,19 @@
   "cds":{
     "requires":{
       "db":{
-        "kind":"sqlite",
-        "credentials": {
-          "url":"db.sqlite"
+        "[development]":{
+          "kind":"sqlite",
+          "credentials": {
+            "url":":memory:"
+          }
+        },
+        "[testing]":{
+          "kind":"sqlite",
+          "credentials": {
+            "url":"db.sqlite"
+          }
         }
+        
       }
     }
   },
