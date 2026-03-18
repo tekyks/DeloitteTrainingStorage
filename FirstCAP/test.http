@@ -5,22 +5,22 @@
 
 # Create Call
 
-# POST http://localhost:4004/odata/v4/bookshop/Books
-# Content-Type: application/json
+POST http://localhost:4004/odata/v4/bookshop/Books
+Content-Type: application/json
 
-# {
-#     "title": "Deep Work"
-# }
+{
+    "title": "Deep Work"
+}
 
 
 # Update call
 
-PUT http://localhost:4004/odata/v4/bookshop/Books(bd8d6e12-b233-4f98-8420-4bd0afb536ef)
-Content-Type: application/json
+# PUT http://localhost:4004/odata/v4/bookshop/Books(bd8d6e12-b233-4f98-8420-4bd0afb536ef)
+# Content-Type: application/json
 
-{
-    "title": "Make Time"
-}
+# {
+#     "title": "Make Time"
+# }
 
 # PATCH http://localhost:4004/odata/v4/bookshop/Books(3)
 # Content-Type: application/json
