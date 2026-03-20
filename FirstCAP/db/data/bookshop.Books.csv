@@ -1,2 +1,4 @@
-ID,title,author_foreignkey
+ID,title,author_ID
 2618391e-9db8-4c0c-8712-26ceecb85823,Deep Work,2618391e-9db8-5c0c-8712-26ceecb85823
+2618391e-9db7-4c0c-8712-26ceecb85823,4 Hour Work Week,2618392e-9db8-5c0c-8712-26ceecb85823
+2618391e-9db6-4c0c-8712-26ceecb85823,Tools of Titans,2618392e-9db8-5c0c-8712-26ceecb85823

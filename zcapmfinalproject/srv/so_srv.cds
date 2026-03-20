@@ -1,0 +1,6 @@
+using techyks.api from '../db/so';
+
+service SalesOrderService {
+    entity SalesOrderHeader as projection on api.SalesOrder;
+    //entity SalesOrderItems  as projection on api.SalesOrderItems;
+}
